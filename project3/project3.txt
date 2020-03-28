@@ -1,6 +1,6 @@
-#include <stdio.h>      /* printf, scanf, puts, NULL */
-#include <stdlib.h>     /* srand, rand */
-#include <time.h>       /* time */
+#include <stdio.h>     
+#include <stdlib.h>    
+#include <time.h>       
 #include <iostream>
 #include <cstdio>
 #include <fstream>
@@ -63,11 +63,11 @@ int main()
     srand(time(NULL));
     for (int i = 0;i<M1-1;i++)
     {
-        s1[i] = rand() % ('Z' - 'A' + 1) + 'A';       //将x赋为大写字母的ascii码 
+        s1[i] = rand() % ('Z' - 'A' + 1) + 'A';      
     }
     for (int i = 0; i < M2-1; i++)
     {
-        s2[i] = rand() % ('Z' - 'A' + 1) + 'A';       //将x赋为大写字母的ascii码 
+        s2[i] = rand() % ('Z' - 'A' + 1) + 'A';      
     }
 
 
